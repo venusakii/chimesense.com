@@ -21,9 +21,7 @@ export const metadata: Metadata = {
   description: "Intelligence at Your Doorstep. Smart doorbells with real-time vision and AI motion alerts.",
   generator: "v0.app",
   keywords: ["smart doorbell", "home security", "AI motion detection", "video doorbell", "smart home"],
-  icons: {
-    icon: "/chimesense-favicon.ico",
-  },
+  // Next.js automatically uses icon.svg from app directory
 }
 
 export default function RootLayout({
